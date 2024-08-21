@@ -7,6 +7,7 @@
 |----------|-------------------------------|---------------------------|
 
 圖片和 JSON 檔案的路徑已更新至 C:\dataset\Hard Hat Workers.v2-raw.coco\train，並且 JSON 檔名為 _annotations.coco.json , json 檔案格式如下:
+```
 {
     "info": {
         "year": "2020",
@@ -76,6 +77,7 @@
         }
     ]
 }
+```
 ### step 2
 太棒了, 但目前有5個目錄要合併作報告, 最後結尾要有一個統計, head, helmet ,person 標籤各有幾個, 目錄及json 名稱如下
 圖片和 JSON 檔案的路徑已更新至 C:\dataset\Hard Hat Workers.v2-raw.coco\train，並且 JSON 檔名為 _annotations.coco.json
